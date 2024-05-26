@@ -1,0 +1,9 @@
+.schedule {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 1024px;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

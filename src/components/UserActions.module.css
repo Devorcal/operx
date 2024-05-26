@@ -1,0 +1,972 @@
+.setting,
+.timer {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 47px;
+}
+.setting {
+  align-self: stretch;
+  line-height: 16.4px;
+  min-width: 60px;
+}
+.progressContent,
+.progressContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.progressContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-51xl-8);
+}
+.progressContentWrapper {
+  width: 70px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.logoutIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 25px;
+}
+.logout {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.logoutWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.frameParent,
+.logoutParent,
+.logoutWrapper,
+.userActionsInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoutParent {
+  flex-direction: row;
+  gap: var(--gap-5xs-8);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+.frameParent,
+.userActionsInner {
+  flex-direction: column;
+}
+.frameParent {
+  gap: var(--gap-530xl);
+}
+.userActionsInner {
+  padding: var(--padding-18xl-8) 0 0;
+}
+.academicProgressBase {
+  width: 694px;
+  height: 381px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.academicProgress1 {
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.academicProgressWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-lg);
+}
+.termProgressWrapperChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.termProgressweeks {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.termProgressweeksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.progressBarBase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+.progressBar,
+.termProgressBar {
+  height: 38px;
+  border-radius: var(--br-11xl);
+}
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #fbfbff, #4555ff);
+  width: 360px;
+  z-index: 2;
+}
+.termProgressBar {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  z-index: 1;
+}
+.progressBarInnerContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.progressBarContainer,
+.termProgressWrapper {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.progressBarContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.termProgressWrapper {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  color: var(--color-dimgray-100);
+}
+.gpaBase {
+  width: 278.8px;
+  height: 144px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  display: none;
+}
+.gpa1,
+.gpaSelector {
+  position: relative;
+  z-index: 1;
+}
+.gpaSelector {
+  width: 21px;
+  height: 21px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-dimgray-300);
+  box-sizing: border-box;
+}
+.gpa1 {
+  align-self: stretch;
+  height: 20.9px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.gpaSelectorItems {
+  width: 36.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xl-8);
+  box-sizing: border-box;
+}
+.directedGraph {
+  height: 62.7px;
+  width: 107.4px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.gpaSelectorInnerContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.gpa,
+.gpaSelectorContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.gpaSelectorContainer {
+  width: 233.4px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+}
+.gpa {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  flex-direction: column;
+  padding: var(--padding-3xs-3) var(--padding-3xs) var(--padding-21xl-7);
+  gap: var(--gap-2xs-3);
+  min-width: 181px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.standingBase,
+.standingSelector {
+  position: relative;
+  border-radius: var(--br-3xs);
+}
+.standingBase {
+  width: 278.8px;
+  height: 144px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-ghostwhite);
+  display: none;
+}
+.standingSelector {
+  width: 21px;
+  height: 21px;
+  border: 1px solid var(--color-dimgray-300);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.standing1 {
+  align-self: stretch;
+  height: 20.9px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.standingWrapper {
+  width: 79.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xl-8);
+  box-sizing: border-box;
+}
+.div {
+  height: 62.7px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 73px;
+  z-index: 1;
+}
+.frameGroup,
+.standing,
+.standingInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-18xl-7);
+}
+.standing,
+.standingInner {
+  align-items: flex-start;
+}
+.standingInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base) 0 var(--padding-2xs);
+}
+.standing {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite);
+  flex-direction: column;
+  padding: var(--padding-3xs-3) var(--padding-3xs) var(--padding-21xl-7);
+  box-sizing: border-box;
+  gap: var(--gap-2xs-3);
+  min-width: 181px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.academicProgressInner,
+.gpaParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.gpaParent {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-34xl-2);
+}
+.academicProgressInner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+  color: var(--label-colors-lc-l-primary);
+}
+.academicProgress,
+.announcementsChild {
+  background-color: var(--white);
+  max-width: 100%;
+}
+.academicProgress {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-15xl) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xl-5);
+}
+.announcementsChild {
+  width: 694px;
+  height: 321px;
+  position: relative;
+  border-radius: var(--br-mini);
+  display: none;
+}
+.announcement {
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.iconsnavigateBefore,
+.iconsnavigateNext {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 30px;
+  z-index: 1;
+}
+.announcementNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.announcementDetails,
+.taskItemTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.announcementDetails {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.taskItemTwo {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.stronglyConnectedComponent {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.teacherAnnouncment {
+  width: 270px;
+  height: 165px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-ghostwhite);
+  display: none;
+}
+.teacherIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 2;
+}
+.teacherIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.mrBantider {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 2;
+}
+.dueDate {
+  height: 12px;
+  width: 57px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.tomorrow {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 1;
+}
+.announcementDate,
+.announcementDateWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.announcementDate {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  padding: var(--padding-12xs) var(--padding-5xs);
+  z-index: 2;
+}
+.announcementDateWrapper {
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-5xs);
+}
+.authorNameContainer,
+.mrBantiderParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.authorNameContainer {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.justWantedTo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  white-space: pre-wrap;
+  text-align: left;
+  z-index: 2;
+}
+.announcementCard,
+.teacherAnnouncment1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-ghostwhite);
+}
+.announcementCard {
+  flex: 0.9148;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-7xs) var(--padding-lgi)
+    var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 175px;
+  z-index: 1;
+}
+.teacherAnnouncment1 {
+  width: 270px;
+  height: 165px;
+  position: relative;
+  display: none;
+}
+.mrMehatebe,
+.teacherIcon1 {
+  position: relative;
+  z-index: 2;
+}
+.teacherIcon1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+}
+.mrMehatebe {
+  font-weight: 700;
+  display: inline-block;
+  min-width: 84px;
+}
+.dueDate1 {
+  height: 12px;
+  width: 57px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.tomorrow1 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 1;
+}
+.announcementContent,
+.announcementDate1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.announcementDate1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  padding: var(--padding-12xs) var(--padding-5xs);
+  z-index: 2;
+}
+.announcementContent {
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-5xs);
+}
+.announcementItem,
+.teacherDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.teacherDetails {
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.announcementItem {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.teacherName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.justWantedTo1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  white-space: pre-wrap;
+  text-align: left;
+  z-index: 2;
+}
+.taskDetailsOne,
+.teacherAnnouncmentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.teacherAnnouncmentParent {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-ghostwhite);
+  padding: var(--padding-lgi) var(--padding-7xs) var(--padding-lgi)
+    var(--padding-mid);
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.taskDetailsOne {
+  flex: 1;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 175px;
+}
+.authorInfo,
+.taskItemThree {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.authorInfo {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.taskItemThree {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--body-small-size);
+  color: var(--label-colors-lc-l-primary);
+}
+.actionsContainer,
+.announcements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.announcements {
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  align-items: flex-end;
+  padding: var(--padding-21xl) var(--padding-22xl) var(--padding-27xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-lg);
+}
+.actionsContainer {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-19xl);
+}
+.myTaskBox {
+  width: 328px;
+  height: 740px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.myTask {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.addTask {
+  height: 20px;
+  width: 75px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.addTask1,
+.iconsadd24px {
+  position: relative;
+  z-index: 1;
+}
+.iconsadd24px {
+  height: 12px;
+  width: 12px;
+}
+.addTask1 {
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 46px;
+}
+.addTaskButton {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray-100);
+  padding: var(--padding-11xs) var(--padding-7xs) var(--padding-12xs);
+  background-color: transparent;
+  width: 75px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.addTaskButton:hover {
+  background-color: var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+}
+.addTaskButton,
+.progressItems,
+.taskHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.progressItems {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.taskHeader {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-10xs);
+}
+.prepareAssessmentQuestion {
+  position: relative;
+  z-index: 1;
+}
+.setAssessmentQuestion,
+.tuesday {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.tuesday {
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  min-width: 42px;
+}
+.projectInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  min-width: 163px;
+}
+.iconsmore24px {
+  width: 15px;
+  height: 15.4px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.taskDescription,
+.taskHeader1 {
+  display: flex;
+  align-items: flex-start;
+}
+.taskHeader1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-3) 0 0;
+}
+.taskDescription {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-7xl);
+}
+.taskDescriptionWrapper,
+.taskItem {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.taskDescriptionWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--color-gray-100);
+}
+.taskItem {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.separatorChild {
+  height: 2px;
+  width: 276px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.separator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.taskDetailsTwo {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+}
+.navigation,
+.taskDetailsTwo,
+.tasks,
+.userActions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tasks {
+  width: 328px;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-base) var(--padding-550xl)
+    var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  min-width: 328px;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.navigation,
+.userActions {
+  flex-direction: row;
+}
+.navigation {
+  flex: 1;
+  gap: var(--gap-19xl);
+  max-width: calc(100% - 243px);
+  font-size: var(--body-small-size);
+}
+.userActions {
+  width: 1303px;
+  gap: var(--gap-140xl-2);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-be-vietnam-pro);
+}
+@media screen and (max-width: 1200px) {
+  .userActions {
+    gap: var(--gap-61xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .directedGraph,
+  .div {
+    font-size: var(--font-size-10xl);
+  }
+  .progressItems,
+  .tasks {
+    flex: 1;
+  }
+  .navigation {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .userActionsInner {
+    display: none;
+  }
+  .authorInfo,
+  .gpaParent {
+    flex-wrap: wrap;
+    gap: var(--gap-8xl);
+  }
+  .authorInfo {
+    gap: var(--gap-21xl);
+  }
+  .actionsContainer {
+    gap: var(--gap-lgi);
+    min-width: 100%;
+  }
+  .tasks {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-351xl);
+    box-sizing: border-box;
+  }
+  .navigation {
+    gap: var(--gap-lgi);
+    max-width: 100%;
+  }
+  .userActions {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .directedGraph {
+    font-size: var(--font-size-3xl);
+  }
+  .gpaSelectorInnerContainer {
+    flex-wrap: wrap;
+  }
+  .div {
+    font-size: var(--font-size-3xl);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .academicProgress {
+    padding-top: var(--padding-5xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .announcementDetails {
+    flex-wrap: wrap;
+  }
+  .announcementCard {
+    flex: 1;
+  }
+  .authorInfo {
+    gap: var(--gap-xl);
+  }
+  .progressItems,
+  .taskDescription {
+    flex-wrap: wrap;
+  }
+  .tasks {
+    gap: var(--gap-5xl);
+  }
+  .userActions {
+    gap: var(--gap-xl);
+  }
+}

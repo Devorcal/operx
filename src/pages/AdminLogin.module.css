@@ -1,0 +1,220 @@
+.enterYourAccount,
+.login {
+  position: relative;
+  z-index: 1;
+}
+.login {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.enterYourAccount {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.loginParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.loginButton {
+  align-self: stretch;
+  height: 48px;
+  z-index: 1;
+}
+.frameGroup {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-135xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.dontHaveAn {
+  position: relative;
+  z-index: 1;
+}
+.signupContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.signupButton {
+  height: 48px;
+  width: 126px;
+  z-index: 1;
+}
+.frameParent,
+.signupContentParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.signupContentParent {
+  width: 384px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+}
+.frameParent {
+  width: 630px;
+  border-radius: var(--br-5xl) 0 0 var(--br-5xl);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-295xl) 109px var(--padding-45xl) var(--padding-109xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  min-width: 630px;
+}
+.illustrationIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.administratorPortal,
+.welcomeTo {
+  margin: 0;
+}
+.welcomeToAdministratorContainer {
+  margin: 0 !important;
+  width: 657px;
+  position: absolute;
+  top: -203px;
+  right: 15px;
+  font-size: inherit;
+  line-height: 70px;
+  display: inline-block;
+  z-index: 2;
+  font-family: inherit;
+}
+.loginToAccess {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  z-index: 2;
+}
+.adminLogin,
+.illustrationParent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.illustrationParent {
+  flex: 1;
+  align-items: flex-start;
+  padding: 29px 126px;
+  min-width: 519px;
+  min-height: 647px;
+  max-width: 100%;
+  font-size: var(--font-size-61xl);
+  color: var(--color-whitesmoke-300);
+}
+.adminLogin {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-mediumslateblue);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    flex: 1;
+  }
+  .adminLogin {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xs);
+    padding-top: var(--padding-xs);
+    padding-bottom: var(--padding-xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .login {
+    font-size: var(--font-size-19xl);
+  }
+  .frameParent {
+    padding-top: var(--padding-185xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .welcomeToAdministratorContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .signupContentParent {
+    flex-wrap: wrap;
+  }
+  .frameParent,
+  .illustrationParent {
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+    padding-left: var(--padding-45xl);
+    padding-right: 54px;
+  }
+  .illustrationParent {
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-44xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: var(--font-size-10xl);
+  }
+  .loginButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    gap: var(--gap-5xl);
+    padding-bottom: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding: var(--padding-114xl) var(--padding-xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .welcomeToAdministratorContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 28px;
+  }
+}

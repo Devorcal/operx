@@ -1,0 +1,1345 @@
+.settings {
+  height: 36px;
+  width: 36px;
+  border-radius: var(--br-13xl);
+  display: none;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+  color: inherit;
+}
+.iconSettings {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.settings1,
+.settingsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.settings1 {
+  height: 36px;
+  width: 36px;
+  border-radius: var(--br-13xl);
+  border: 1px solid var(--grey-02);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+}
+.settingsParent {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 36px var(--padding-base) var(--padding-3xs) 631px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--label-colors-lc-l-primary);
+  font-family: var(--font-poppins);
+}
+.line {
+  width: 1430px;
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.iconFolder {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo,
+.userJourney01pdf {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details,
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry,
+.kb {
+  position: relative;
+}
+.iconRetry {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb {
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag,
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li,
+.uploadItem,
+.wrap {
+  align-self: stretch;
+}
+.li {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo1,
+.userJourney01pdf1 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf1 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo1 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details1,
+.text1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details1 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb1 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag1,
+.tags1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag1 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags1 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis1 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li1,
+.wrap1 {
+  align-self: stretch;
+}
+.wrap1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li1 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo2,
+.userJourney01pdf2 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf2 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo2 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details2,
+.text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details2 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb2 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag2,
+.tags2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag2 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags2 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis2 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li2,
+.wrap2 {
+  align-self: stretch;
+}
+.wrap2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li2 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo3,
+.userJourney01pdf3 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf3 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo3 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details3,
+.text3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details3 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb3 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag3,
+.tags3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag3 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags3 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis3 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li3,
+.wrap3 {
+  align-self: stretch;
+}
+.wrap3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li3 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo4,
+.userJourney01pdf4 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf4 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo4 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details4,
+.text4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details4 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb4 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag4,
+.tags4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag4 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags4 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis4 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li4,
+.wrap4 {
+  align-self: stretch;
+}
+.wrap4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li4 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder5 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo5,
+.userJourney01pdf5 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf5 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo5 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details5,
+.text5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details5 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry5 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb5 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag5,
+.tags5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag5 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags5 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis5 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li5,
+.wrap5 {
+  align-self: stretch;
+}
+.wrap5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li5 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder6 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo6,
+.userJourney01pdf6 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf6 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo6 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details6,
+.text6 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details6 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry6 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb6 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag6,
+.tags6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag6 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags6 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis6 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li6,
+.wrap6 {
+  align-self: stretch;
+}
+.wrap6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li6 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo7,
+.userJourney01pdf7 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf7 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo7 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details7,
+.text7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details7 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb7 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag7,
+.tags7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag7 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags7 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis7 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li7,
+.wrap7 {
+  align-self: stretch;
+}
+.wrap7 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li7 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.iconFolder8 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo8,
+.userJourney01pdf8 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf8 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo8 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details8,
+.text8 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details8 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry8 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb8 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag8,
+.tags8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag8 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags8 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis8 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li8,
+.wrap8 {
+  align-self: stretch;
+}
+.wrap8 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li8 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem8,
+.uploads {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uploadItem8 {
+  align-self: stretch;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.uploads {
+  width: 1430px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.iconFolder9 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo9,
+.userJourney01pdf9 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf9 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo9 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details9,
+.text9 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details9 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry9 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb9 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag9,
+.tags9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag9 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags9 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis9 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li9,
+.wrap9 {
+  align-self: stretch;
+}
+.wrap9 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li9 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem9,
+.uploadItemWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uploadItem9 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.uploadItemWrapper {
+  width: 1430px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.iconFolder10 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mAgo10,
+.userJourney01pdf10 {
+  align-self: stretch;
+  position: relative;
+}
+.userJourney01pdf10 {
+  line-height: 16px;
+  font-weight: 500;
+}
+.mAgo10 {
+  font-size: var(--body-small-size);
+  line-height: 14px;
+}
+.details10,
+.text10 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 831px;
+  max-width: 100%;
+}
+.details10 {
+  flex-direction: row;
+  gap: var(--gap-base);
+  min-width: 852px;
+}
+.iconRetry10 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.kb10 {
+  position: relative;
+  line-height: 12px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 40px;
+}
+.tag10,
+.tags10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tag10 {
+  flex: 1;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--grey-04);
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-6xs);
+}
+.tags10 {
+  width: 56px;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--label-tiny-size);
+}
+.iconEllipsis10 {
+  height: 13px;
+  width: 3px;
+  position: relative;
+}
+.li10,
+.wrap10 {
+  align-self: stretch;
+}
+.wrap10 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.li10 {
+  height: 1px;
+  position: relative;
+  background-color: var(--grey-02);
+}
+.uploadItem10,
+.uploadItemContainer,
+.uploadItemDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uploadItem10 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.uploadItemContainer,
+.uploadItemDetails {
+  width: 1430px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.uploadItemDetails {
+  overflow-x: auto;
+  flex-direction: column;
+  padding: 0 0 var(--padding-base);
+  gap: 10.7px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.lastSynced3 {
+  width: 122px;
+  position: relative;
+  display: none;
+}
+.recentUploads,
+.resources,
+.synced {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.synced {
+  align-self: stretch;
+  height: 44px;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--grey-01);
+  flex-direction: row;
+  align-items: center;
+  padding: 14px var(--padding-xl);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  font-size: var(--body-small-size);
+  font-family: var(--font-sf-pro-display);
+}
+.recentUploads,
+.resources {
+  background-color: var(--white);
+  align-items: flex-start;
+}
+.recentUploads {
+  height: 863px;
+  flex: 1;
+  box-shadow: 0 0 48px rgba(24, 39, 89, 0.06);
+  border-radius: var(--br-5xl);
+  flex-direction: column;
+  padding: 0 0 26px;
+  gap: 65px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-medium-size);
+  color: var(--grey-05);
+  font-family: var(--label-tiny);
+}
+.resources {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0 151px var(--padding-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .details,
+  .details1,
+  .details10,
+  .details2,
+  .details3,
+  .details4,
+  .details5,
+  .details6,
+  .details7,
+  .details8,
+  .details9 {
+    flex-wrap: wrap;
+  }
+  .recentUploads {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .details,
+  .details1,
+  .details10,
+  .details2,
+  .details3,
+  .details4,
+  .details5,
+  .details6,
+  .details7,
+  .details8,
+  .details9,
+  .text,
+  .text1,
+  .text10,
+  .text2,
+  .text3,
+  .text4,
+  .text5,
+  .text6,
+  .text7,
+  .text8,
+  .text9 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .settingsParent {
+    padding-left: 315px;
+    box-sizing: border-box;
+  }
+  .recentUploads {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .settingsParent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .recentUploads {
+    gap: var(--gap-base);
+  }
+}

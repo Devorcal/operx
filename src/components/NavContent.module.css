@@ -1,0 +1,684 @@
+.navigationBox {
+  height: 70px;
+  width: 255px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.dashboard,
+.linkItems {
+  display: flex;
+  justify-content: center;
+}
+.dashboard {
+  width: 90px;
+  position: relative;
+  font-weight: 600;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 90px;
+  z-index: 1;
+}
+.linkItems {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-200);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xl) var(--padding-xl) var(--padding-2xl);
+}
+.resources {
+  width: 84px;
+  position: relative;
+  font-weight: 600;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 84px;
+}
+.calendar,
+.calendarLink,
+.resources {
+  display: flex;
+  justify-content: center;
+}
+.calendarLink {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-lg-8) var(--padding-6xl);
+}
+.calendar {
+  width: 75px;
+  position: relative;
+  font-weight: 600;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 75px;
+}
+.calendarWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-lg-1);
+}
+.calendarWrapper,
+.reports,
+.reportsWrapper {
+  display: flex;
+  justify-content: center;
+}
+.reports {
+  width: 65px;
+  position: relative;
+  font-weight: 600;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 65px;
+}
+.reportsWrapper {
+  width: 243px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.linkItemsParent,
+.navContentInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkItemsParent {
+  align-self: stretch;
+  gap: var(--gap-33xl-8);
+}
+.navContentInner {
+  width: 288px;
+  padding: var(--padding-lgi) var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+}
+.mainBox {
+  border: 0;
+  background-color: var(--white);
+  height: 327px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  mix-blend-mode: color-dodge;
+}
+.actionItems {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 451px;
+  max-width: 100%;
+}
+.calanderBox {
+  width: 328px;
+  height: 330px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.mon,
+.month {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.month {
+  letter-spacing: 0.38px;
+  line-height: 24px;
+  font-weight: 700;
+  min-width: 77px;
+}
+.mon {
+  align-self: stretch;
+  line-height: 16px;
+  min-width: 27px;
+}
+.weekdayLabels {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21px;
+}
+.tue {
+  flex: 1;
+  display: inline-block;
+  min-width: 16px;
+}
+.thu,
+.tue,
+.wed {
+  position: relative;
+  line-height: 16px;
+  z-index: 1;
+}
+.wed {
+  display: inline-block;
+  min-width: 28px;
+}
+.thu {
+  align-self: stretch;
+}
+.weekdayLabels1 {
+  flex: 0.8788;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21px;
+}
+.fri {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 14px;
+  z-index: 1;
+}
+.calendarDayNames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+}
+.sat {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 21px;
+  z-index: 1;
+}
+.calendarDayNames1 {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21px;
+}
+.sun {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 16px;
+  z-index: 1;
+}
+.weekdays {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-sm);
+  text-align: center;
+  font-size: var(--body-small-size);
+  color: var(--label-colors-lc-l-secondary);
+}
+.monthHeader,
+.monthHeaderWrapper,
+.weekdays {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.monthHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.monthHeaderWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) var(--padding-4xl) var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+.dataAggregator,
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.filterTree {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 1;
+}
+.dataAggregator,
+.div2,
+.div3,
+.div4,
+.filterTree {
+  z-index: 2;
+}
+.dataAggregator,
+.div3,
+.div4,
+.filterTree {
+  max-width: 43px;
+  z-index: 3;
+}
+.dataAggregator,
+.div4,
+.filterTree {
+  color: var(--label-colors-lc-l-primary);
+  max-width: 42px;
+  z-index: 4;
+}
+.dataAggregator,
+.filterTree {
+  z-index: 5;
+}
+.filterTree {
+  z-index: 6;
+}
+.calendarDays {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  color: var(--ui-color-ui-gray);
+}
+.div10,
+.div11,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 2;
+}
+.div10,
+.div11,
+.div6,
+.div7,
+.div8,
+.div9 {
+  z-index: 3;
+}
+.div10,
+.div11,
+.div7,
+.div8,
+.div9 {
+  z-index: 4;
+}
+.div10,
+.div11,
+.div8,
+.div9 {
+  max-width: 43px;
+  z-index: 5;
+}
+.div10,
+.div11,
+.div9 {
+  max-width: 42px;
+  z-index: 6;
+}
+.div10,
+.div11 {
+  z-index: 7;
+}
+.div11 {
+  z-index: 8;
+}
+.calendarDays1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div12,
+.div13,
+.div14,
+.div15,
+.div16,
+.div17,
+.div18 {
+  height: 37px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 4;
+}
+.div13,
+.div14,
+.div15,
+.div16,
+.div17,
+.div18 {
+  z-index: 5;
+}
+.div14,
+.div15,
+.div16,
+.div17,
+.div18 {
+  z-index: 6;
+}
+.div15,
+.div16,
+.div17,
+.div18 {
+  max-width: 43px;
+  z-index: 7;
+}
+.div16,
+.div17,
+.div18 {
+  max-width: 42px;
+  z-index: 8;
+}
+.div17,
+.div18 {
+  z-index: 9;
+}
+.div18 {
+  z-index: 10;
+}
+.calendarDays2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div19,
+.div20,
+.div21,
+.div22,
+.div23,
+.div24,
+.div25 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 6;
+}
+.div20,
+.div21,
+.div22,
+.div23,
+.div24,
+.div25 {
+  z-index: 7;
+}
+.div21,
+.div22,
+.div23,
+.div24,
+.div25 {
+  z-index: 8;
+}
+.div22,
+.div23,
+.div24,
+.div25 {
+  max-width: 43px;
+  z-index: 9;
+}
+.div23,
+.div24,
+.div25 {
+  max-width: 42px;
+  z-index: 10;
+}
+.div24,
+.div25 {
+  z-index: 11;
+}
+.div25 {
+  z-index: 12;
+}
+.calendarDays3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div26,
+.div27,
+.div28,
+.div29,
+.div30,
+.div31,
+.div32 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 8;
+}
+.div27,
+.div28,
+.div29,
+.div30,
+.div31,
+.div32 {
+  z-index: 9;
+}
+.div28,
+.div29,
+.div30,
+.div31,
+.div32 {
+  z-index: 10;
+}
+.div29,
+.div30,
+.div31,
+.div32 {
+  max-width: 43px;
+  z-index: 11;
+}
+.div30,
+.div31,
+.div32 {
+  max-width: 42px;
+  z-index: 12;
+}
+.div31,
+.div32 {
+  z-index: 13;
+}
+.div32 {
+  z-index: 14;
+}
+.calendarDays4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div33,
+.div34,
+.div35,
+.div36,
+.div37,
+.div38,
+.div39 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 10;
+}
+.div34,
+.div35,
+.div36,
+.div37,
+.div38,
+.div39 {
+  z-index: 11;
+}
+.div35,
+.div36,
+.div37,
+.div38,
+.div39 {
+  z-index: 12;
+}
+.div36,
+.div37,
+.div38,
+.div39 {
+  max-width: 43px;
+  z-index: 13;
+}
+.div37,
+.div38,
+.div39 {
+  max-width: 42px;
+  z-index: 14;
+}
+.div38,
+.div39 {
+  z-index: 15;
+}
+.div39 {
+  z-index: 16;
+}
+.calander,
+.calendarDays5,
+.navContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendarDays5 {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  color: var(--ui-color-ui-gray);
+}
+.calander,
+.navContent {
+  max-width: 100%;
+}
+.calander {
+  width: 328px;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-smi) var(--padding-xs)
+    var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+  color: var(--label-colors-lc-l-primary);
+  font-family: var(--font-poppins);
+}
+.navContent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-19xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-be-vietnam-pro);
+}
+@media screen and (max-width: 750px) {
+  .actionItems {
+    min-width: 100%;
+  }
+  .navContent {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .linkItemsParent {
+    gap: var(--gap-7xl);
+  }
+  .calendarDayNames1,
+  .weekdayLabels,
+  .weekdayLabels1 {
+    flex: 1;
+  }
+  .calendarDays,
+  .calendarDays1,
+  .calendarDays2,
+  .calendarDays3,
+  .calendarDays4,
+  .calendarDays5,
+  .weekdays {
+    flex-wrap: wrap;
+  }
+}

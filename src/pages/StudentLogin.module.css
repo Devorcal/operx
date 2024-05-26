@@ -1,0 +1,231 @@
+.enterYourAccount,
+.login {
+  position: relative;
+  z-index: 1;
+}
+.login {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.enterYourAccount {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.loginInputs {
+  width: 381px;
+  height: 144px;
+  max-width: 100%;
+}
+.loginButton {
+  align-self: stretch;
+  height: 48px;
+  z-index: 1;
+}
+.loginInputsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-135xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.dontHaveAn {
+  position: relative;
+  z-index: 1;
+}
+.newUser {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.signUpButton {
+  height: 48px;
+  width: 137px;
+  z-index: 1;
+}
+.contentParent,
+.signupContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.signupContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-600);
+}
+.contentParent {
+  width: 630px;
+  border-radius: var(--br-5xl) 0 0 var(--br-5xl);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-295xl) 107px var(--padding-45xl) var(--padding-109xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  min-width: 630px;
+  max-width: 100%;
+}
+.studentPortal,
+.welcomeTo {
+  margin: 0;
+}
+.welcomeToStudentContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-family: inherit;
+}
+.portalDescriptionChild {
+  height: 647px;
+  width: 798px;
+  position: absolute;
+  margin: 0 !important;
+  right: -416px;
+  bottom: -643px;
+  z-index: 1;
+}
+.loginToAccess {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.portalDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.welcomeMessage {
+  flex-direction: column;
+  gap: 43px;
+}
+.portalInfo,
+.studentLogin,
+.welcomeMessage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.portalInfo {
+  flex-direction: column;
+  padding: 174px 0 0;
+  box-sizing: border-box;
+  min-width: 566px;
+  max-width: 100%;
+  font-size: var(--font-size-61xl);
+  color: var(--color-whitesmoke-300);
+}
+.studentLogin {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-mediumslateblue);
+  overflow: hidden;
+  flex-direction: row;
+  gap: 126px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1275px) {
+  .contentParent,
+  .portalInfo {
+    flex: 1;
+  }
+  .studentLogin {
+    flex-wrap: wrap;
+    gap: 63px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .contentParent {
+    padding-top: var(--padding-185xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .login {
+    font-size: var(--font-size-19xl);
+  }
+  .contentParent {
+    gap: var(--gap-5xl);
+    padding-left: var(--padding-45xl);
+    padding-right: 53px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .welcomeToStudentContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 42px;
+  }
+  .welcomeMessage {
+    gap: 21px;
+  }
+  .portalInfo {
+    min-width: 100%;
+  }
+  .studentLogin {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: var(--font-size-10xl);
+  }
+  .loginButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .loginInputsParent {
+    gap: var(--gap-5xl);
+    padding-bottom: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .signupContainer {
+    flex-wrap: wrap;
+  }
+  .contentParent {
+    padding: var(--padding-114xl) var(--padding-xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .welcomeToStudentContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 28px;
+  }
+  .portalInfo {
+    padding-top: 113px;
+    box-sizing: border-box;
+  }
+  .studentLogin {
+    gap: var(--gap-base);
+  }
+}
