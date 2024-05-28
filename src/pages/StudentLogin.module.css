@@ -1,6 +1,356 @@
 .enterYourAccount,
 .login {
   position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.enterYourAccount {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-gray-500);
+}
+.contentLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.adminId,
+.fieldSeparator {
+  position: relative;
+  z-index: 1;
+}
+.adminId {
+  width: 72px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 24px;
+  color: var(--color-gray-700);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.fieldSeparator {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+}
+.inputFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.eyeslashfillIcon,
+.password {
+  height: 24px;
+  position: relative;
+  z-index: 1;
+}
+.password {
+  width: 77px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  color: var(--color-gray-700);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.eyeslashfillIcon {
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.passwordParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.inputFieldsChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.inputFields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-700);
+  text-align: left;
+  z-index: 1;
+}
+.credentials {
+  width: 381px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.login1 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 43px;
+}
+.accountOptions,
+.loginButton {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--color-mediumslateblue-200);
+  border-radius: var(--br-xs);
+  flex-direction: row;
+  justify-content: center;
+  z-index: 1;
+}
+.loginButton:hover {
+  background-color: var(--color-mediumslateblue-100);
+}
+.accountOptions {
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-135xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+}
+.dontHaveAn {
+  position: relative;
+  z-index: 1;
+}
+.signupPrompt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.signUp {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.signupButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-14xl);
+  background-color: var(--color-darkslategray-200);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.signupButton:hover {
+  background-color: var(--color-dimgray-300);
+}
+.mainLayout,
+.signupPromptParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.signupPromptParent {
+  width: 384px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-700);
+}
+.mainLayout {
+  width: 630px;
+  border-radius: var(--br-5xl) 0 0 var(--br-5xl);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-295xl) var(--padding-90xl) var(--padding-45xl)
+    var(--padding-109xl);
+  box-sizing: border-box;
+  gap: var(--gap-29xl);
+  min-width: 630px;
+}
+.illustrationIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.portal,
+.students,
+.welcomeTo {
+  margin: 0;
+}
+.welcomeToStudentsContainer {
+  margin: 0 !important;
+  width: 657px;
+  position: absolute;
+  top: -203px;
+  right: 15px;
+  font-size: inherit;
+  line-height: 70px;
+  display: inline-block;
+  z-index: 2;
+  font-family: inherit;
+}
+.loginToAccess {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  z-index: 2;
+}
+.illustrationParent,
+.studentLogin {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.illustrationParent {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-10xl) var(--padding-107xl);
+  min-width: 519px;
+  min-height: 647px;
+  max-width: 100%;
+  font-size: var(--font-size-61xl);
+  color: var(--color-whitesmoke-400);
+}
+.studentLogin {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  background: linear-gradient(180deg, #4555ff, #e3e5f7 63.29%);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1125px) {
+  .mainLayout {
+    flex: 1;
+  }
+  .studentLogin {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xs);
+    padding-top: var(--padding-xs);
+    padding-bottom: var(--padding-xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .login {
+    font-size: var(--font-size-19xl);
+  }
+  .mainLayout {
+    padding-top: var(--padding-185xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .welcomeToStudentsContainer {
+    font-size: var(--font-size-21xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .signupPromptParent {
+    flex-wrap: wrap;
+  }
+  .illustrationParent,
+  .mainLayout {
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .mainLayout {
+    gap: var(--gap-5xl);
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-35xl);
+  }
+  .illustrationParent {
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-44xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: var(--font-size-10xl);
+  }
+  .accountOptions {
+    gap: var(--gap-5xl);
+    padding-bottom: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .mainLayout {
+    padding: var(--padding-114xl) var(--padding-xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .welcomeToStudentsContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 28px;
+  }
+}
+.enterYourAccount,
+.login {
+  position: relative;
   z-index: 1;
 }
 .login {

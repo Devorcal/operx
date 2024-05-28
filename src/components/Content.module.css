@@ -1,0 +1,1508 @@
+.progressTop {
+  border: 1px solid var(--color-gray-400);
+  background-color: transparent;
+  height: 327px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-mini);
+}
+.academicProgressBase,
+.contentLeft,
+.progressTop {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contentLeft {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.academicProgressBase {
+  width: 694px;
+  height: 381px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  display: none;
+}
+.academicProgress1 {
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.gpaStanding {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-6xs);
+}
+.progressChartChild {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.progressChart,
+.termProgressLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.progressChart {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-7xs);
+  max-width: 100%;
+}
+.termProgressLabel {
+  width: 145px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 15px;
+  padding: 0 var(--padding-7xs);
+  font-family: var(--font-be-vietnam-pro);
+  font-weight: 500;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+}
+.progressBarBase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1;
+}
+.progressBar,
+.progressBarContainer {
+  height: 38px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+}
+.progressBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #4555ff);
+  border-top: 1px solid var(--color-gray-400);
+  border-bottom: 1px solid var(--color-gray-400);
+  border-left: 1px solid var(--color-gray-400);
+  width: 360px;
+  z-index: 2;
+}
+.progressBarContainer {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  z-index: 1;
+}
+.progressName,
+.termProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.termProgress {
+  align-self: stretch;
+  gap: var(--gap-smi);
+}
+.progressName {
+  width: 619px;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.gpaBase,
+.gpaSelector {
+  width: 278.8px;
+  height: 144px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.gpaSelector {
+  height: 18px;
+  width: 18px;
+}
+.gradeTitle {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4px;
+  z-index: 3;
+}
+.gradeLabel {
+  width: 18px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  z-index: 2;
+}
+.gpa,
+.gpaPlaceholder {
+  position: relative;
+  z-index: 2;
+}
+.gpaPlaceholder {
+  align-self: stretch;
+  font-weight: 600;
+}
+.gpa {
+  flex: 1;
+}
+.gPAName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-6xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+}
+.gradeValue,
+.progressDetails {
+  display: flex;
+  justify-content: flex-start;
+}
+.progressDetails {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+}
+.gradeValue {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-57xl) 0 var(--padding-56xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-be-vietnam-pro);
+}
+.gpaSelector1,
+.termBar {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.termBar {
+  width: 278.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-4xs) var(--padding-19xl);
+  gap: var(--gap-10xs);
+  min-width: 278.79999999999995px;
+}
+.gpaSelector1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.standingValue {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 4px;
+  z-index: 2;
+}
+.standingBase,
+.standingDetails {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.standingBase {
+  width: 304.8px;
+  height: 144px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.standing1,
+.standingPlaceholder {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.standingPlaceholder {
+  width: 123.8px;
+  font-weight: 600;
+}
+.standing1 {
+  align-self: stretch;
+  height: 30px;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-100);
+  flex-shrink: 0;
+}
+.standingName {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.standingLabel {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-56xl) 0 var(--padding-59xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-be-vietnam-pro);
+}
+.grade,
+.gradeContainer,
+.standing,
+.standingLabel {
+  display: flex;
+  align-items: flex-start;
+}
+.standing {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-14xl);
+  gap: var(--gap-10xs);
+  min-width: 198px;
+  z-index: 3;
+}
+.grade,
+.gradeContainer {
+  flex-direction: row;
+  max-width: 100%;
+}
+.gradeContainer {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-8xl-2);
+}
+.grade {
+  width: 618.8px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gainsboro-200);
+  font-family: var(--font-poppins);
+}
+.academicProgress,
+.announcementChild,
+.calanderBox {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.academicProgress {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) var(--padding-10xl) var(--padding-10xl);
+  gap: var(--gap-9xl);
+}
+.announcementChild,
+.calanderBox {
+  width: 694px;
+  height: 321px;
+  position: relative;
+  display: none;
+}
+.calanderBox {
+  width: 330px;
+  height: 332px;
+}
+.mon,
+.month {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.month {
+  letter-spacing: 0.38px;
+  line-height: 24px;
+  font-weight: 700;
+  min-width: 77px;
+}
+.mon {
+  align-self: stretch;
+  line-height: 16px;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 27px;
+}
+.weekdayNames {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21px;
+}
+.tue {
+  flex: 1;
+  display: inline-block;
+  min-width: 16px;
+}
+.thu,
+.tue,
+.wed {
+  position: relative;
+  line-height: 16px;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  z-index: 1;
+}
+.wed {
+  display: inline-block;
+  min-width: 28px;
+}
+.thu {
+  align-self: stretch;
+}
+.weekdayNames1 {
+  flex: 0.8788;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21px;
+}
+.fri {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 14px;
+  z-index: 1;
+}
+.weekdayNames2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+}
+.sat {
+  align-self: stretch;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 21px;
+  z-index: 1;
+}
+.weekdayNames3 {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 21px;
+}
+.sun {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 16px;
+  z-index: 1;
+}
+.calendarDatePlaceholders {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-sm);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--label-colors-lc-l-secondary);
+}
+.calendarDatePlaceholders,
+.calendarHeader,
+.calendarMonth {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendarMonth {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.calendarHeader {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-2xs) 0 var(--padding-5xs);
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 1;
+}
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  z-index: 2;
+}
+.div3,
+.div4,
+.div5,
+.div6 {
+  max-width: 43px;
+  z-index: 3;
+}
+.div4,
+.div5,
+.div6 {
+  color: var(--label-colors-lc-l-primary);
+  max-width: 42px;
+  z-index: 4;
+}
+.div5,
+.div6 {
+  z-index: 5;
+}
+.div6 {
+  z-index: 6;
+}
+.calendarDatePlaceholders1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  color: var(--ui-color-ui-gray);
+}
+.div10,
+.div11,
+.div12,
+.div13,
+.div7,
+.div8,
+.div9 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 2;
+}
+.div10,
+.div11,
+.div12,
+.div13,
+.div8,
+.div9 {
+  z-index: 3;
+}
+.div10,
+.div11,
+.div12,
+.div13,
+.div9 {
+  z-index: 4;
+}
+.div10,
+.div11,
+.div12,
+.div13 {
+  max-width: 43px;
+  z-index: 5;
+}
+.div11,
+.div12,
+.div13 {
+  max-width: 42px;
+  z-index: 6;
+}
+.div12,
+.div13 {
+  z-index: 7;
+}
+.div13 {
+  z-index: 8;
+}
+.calendarDatePlaceholders2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div14,
+.div15,
+.div16,
+.div17,
+.div18,
+.div19,
+.div20 {
+  height: 37px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 4;
+}
+.div15,
+.div16,
+.div17,
+.div18,
+.div19,
+.div20 {
+  z-index: 5;
+}
+.div16,
+.div17,
+.div18,
+.div19,
+.div20 {
+  z-index: 6;
+}
+.div17,
+.div18,
+.div19,
+.div20 {
+  max-width: 43px;
+  z-index: 7;
+}
+.div18,
+.div19,
+.div20 {
+  max-width: 42px;
+  z-index: 8;
+}
+.div19,
+.div20 {
+  z-index: 9;
+}
+.div20 {
+  z-index: 10;
+}
+.calendarDatePlaceholders3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div21,
+.div22,
+.div23,
+.div24,
+.div25,
+.div26,
+.div27 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 6;
+}
+.div22,
+.div23,
+.div24,
+.div25,
+.div26,
+.div27 {
+  z-index: 7;
+}
+.div23,
+.div24,
+.div25,
+.div26,
+.div27 {
+  z-index: 8;
+}
+.div24,
+.div25,
+.div26,
+.div27 {
+  max-width: 43px;
+  z-index: 9;
+}
+.div25,
+.div26,
+.div27 {
+  max-width: 42px;
+  z-index: 10;
+}
+.div26,
+.div27 {
+  z-index: 11;
+}
+.div27 {
+  z-index: 12;
+}
+.calendarDatePlaceholders4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div28,
+.div29,
+.div30,
+.div31,
+.div32,
+.div33,
+.div34 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 8;
+}
+.div29,
+.div30,
+.div31,
+.div32,
+.div33,
+.div34 {
+  z-index: 9;
+}
+.div30,
+.div31,
+.div32,
+.div33,
+.div34 {
+  z-index: 10;
+}
+.div31,
+.div32,
+.div33,
+.div34 {
+  max-width: 43px;
+  z-index: 11;
+}
+.div32,
+.div33,
+.div34 {
+  max-width: 42px;
+  z-index: 12;
+}
+.div33,
+.div34 {
+  z-index: 13;
+}
+.div34 {
+  z-index: 14;
+}
+.calendarWeek {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.div35,
+.div36,
+.div37,
+.div38,
+.div39,
+.div40,
+.div41 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.14), 0 1px 0 rgba(0, 0, 0, 0.14),
+    -1px 0 0 rgba(0, 0, 0, 0.14), 0-1px 0 rgba(0, 0, 0, 0.14);
+  min-width: 42px;
+  max-width: 42px;
+  z-index: 10;
+}
+.div36,
+.div37,
+.div38,
+.div39,
+.div40,
+.div41 {
+  z-index: 11;
+}
+.div37,
+.div38,
+.div39,
+.div40,
+.div41 {
+  z-index: 12;
+}
+.div38,
+.div39,
+.div40,
+.div41 {
+  max-width: 43px;
+  z-index: 13;
+}
+.div39,
+.div40,
+.div41 {
+  max-width: 42px;
+  z-index: 14;
+}
+.div40,
+.div41 {
+  z-index: 15;
+}
+.div41 {
+  z-index: 16;
+}
+.calander,
+.calendarDays,
+.calendarWeek1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendarWeek1 {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  color: var(--ui-color-ui-gray);
+}
+.calander,
+.calendarDays {
+  flex-direction: column;
+}
+.calendarDays {
+  align-self: stretch;
+  text-align: center;
+  font-size: var(--font-size-smi);
+}
+.calander {
+  margin-top: -802px;
+  margin-right: -406px;
+  margin-bottom: 456px;
+  width: 330px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  padding: var(--padding-2xl) var(--padding-xs) var(--padding-xs)
+    var(--padding-lgi);
+  gap: var(--gap-4xl);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+  text-align: left;
+  font-family: var(--font-poppins);
+}
+.announcement1 {
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+.iconsnavigateBefore,
+.iconsnavigateNext {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 30px;
+  z-index: 1;
+}
+.announcementNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.announcementContent,
+.announcementDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.announcementContent {
+  flex: 1;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  gap: var(--gap-xl);
+}
+.announcementDetails {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-300);
+}
+.announcementDividerIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.announcementIcon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.teacherAnnouncment {
+  width: 270px;
+  height: 165px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.teacherIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 2;
+}
+.announcementList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.mrBantider {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 2;
+}
+.dueDate {
+  height: 12px;
+  width: 57px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.tomorrow {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 1;
+}
+.announcementDate {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-5xs);
+  z-index: 2;
+}
+.announcementDate,
+.announcementDateWrapper,
+.taskNameLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.announcementDateWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-5xs);
+}
+.taskNameLabel {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.announcementDetails1,
+.taskNameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.taskNameContainer {
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.announcementDetails1 {
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.justWantedTo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  color: var(--color-dimgray-100);
+  white-space: pre-wrap;
+  text-align: left;
+  z-index: 2;
+}
+.announcementContent1,
+.teacherAnnouncment1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.announcementContent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-7xs) var(--padding-10xl)
+    var(--padding-mini);
+  gap: var(--gap-mid);
+  min-width: 206px;
+  z-index: 1;
+}
+.teacherAnnouncment1 {
+  width: 270px;
+  height: 165px;
+  position: relative;
+  display: none;
+}
+.mrMehatebe,
+.teacherIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.teacherIcon1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+}
+.mrMehatebe {
+  font-weight: 700;
+  display: inline-block;
+  min-width: 84px;
+}
+.dueDate1 {
+  height: 12px;
+  width: 57px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.tomorrow1 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 40px;
+  z-index: 1;
+}
+.announcementDate1,
+.taskDateContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.announcementDate1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  padding: var(--padding-12xs) var(--padding-5xs);
+  z-index: 1;
+}
+.taskDateContainer {
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-5xs);
+}
+.frameContainer,
+.mrMehatebeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mrMehatebeParent {
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameContainer {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.frameWrapper,
+.teacherIconParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.teacherIconParent {
+  align-items: flex-end;
+  gap: var(--gap-2xs);
+}
+.frameWrapper {
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.justWantedTo1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  white-space: pre-wrap;
+  text-align: left;
+  z-index: 1;
+}
+.teacherAnnouncmentParent {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-3xs) var(--padding-mid)
+    var(--padding-2xs);
+  gap: var(--gap-xs);
+  min-width: 206px;
+  z-index: 1;
+}
+.taskContainer,
+.taskHeader {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.taskHeader {
+  width: 546px;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.taskContainer {
+  align-self: stretch;
+  font-size: var(--font-size-xs);
+}
+.announcement,
+.contentLeft1,
+.progressHeader,
+.taskContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.announcement {
+  height: 321px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-43xl) var(--padding-29xl) var(--padding-8xl)
+    var(--padding-4xl);
+  gap: var(--gap-base);
+}
+.contentLeft1,
+.progressHeader {
+  align-items: flex-start;
+}
+.contentLeft1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--label-colors-lc-l-primary);
+}
+.progressHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.myTaskBox {
+  width: 328px;
+  height: 740px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.myTask1 {
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.addTask {
+  height: 20px;
+  width: 75px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.addTask1,
+.iconsadd24px {
+  position: relative;
+  z-index: 1;
+}
+.iconsadd24px {
+  height: 12px;
+  width: 12px;
+}
+.addTask1 {
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-be-vietnam-pro);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 46px;
+}
+.addTaskButton {
+  cursor: pointer;
+  border: 1px solid var(--color-darkslategray-100);
+  padding: var(--padding-11xs) var(--padding-7xs) var(--padding-12xs);
+  background-color: transparent;
+  width: 75px;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.addTaskButton:hover {
+  background-color: var(--color-dimgray-400);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+}
+.addTaskButton,
+.taskContent,
+.taskHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.taskHeaderContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.taskContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) var(--padding-19xl) var(--padding-10xs);
+}
+.iconsmore24px,
+.prepareAssessmentQuestion {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+}
+.iconsmore24px {
+  height: 19.6px;
+  width: 19.1px;
+  object-fit: contain;
+  min-height: 20px;
+}
+.prepareAssessmentQuestionParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: center;
+  color: var(--color-darkslategray-300);
+}
+.setAssessmentQuestion {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.setAssessmentQuestionFormFWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-xs);
+}
+.tuesday {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 42px;
+  z-index: 1;
+}
+.taskItems,
+.tuesdayWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tuesdayWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-3xs);
+}
+.taskItems {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.taskDividerIcon {
+  height: 2px;
+  width: 276px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.content,
+.myTask,
+.progressContent,
+.taskIconContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.taskIconContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+}
+.content,
+.myTask,
+.progressContent {
+  max-width: 100%;
+}
+.myTask {
+  width: 328px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-14xl) var(--padding-base) var(--padding-545xl);
+  gap: var(--gap-3xs);
+  min-width: 328px;
+}
+.content,
+.progressContent {
+  align-self: stretch;
+}
+.progressContent {
+  flex-direction: row;
+  gap: var(--gap-14xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-be-vietnam-pro);
+}
+.content {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+@media screen and (max-width: 1225px) {
+  .myTask {
+    flex: 1;
+  }
+  .progressContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .progressHeader {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gpaPlaceholder {
+    font-size: var(--font-size-7xl);
+  }
+  .termBar {
+    flex: 1;
+  }
+  .standingPlaceholder {
+    font-size: var(--font-size-7xl);
+  }
+  .gradeContainer,
+  .taskHeader {
+    flex-wrap: wrap;
+  }
+  .announcement {
+    padding-top: var(--padding-21xl);
+    padding-right: var(--padding-5xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .myTask {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-348xl);
+    box-sizing: border-box;
+  }
+  .progressContent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .gpaPlaceholder {
+    font-size: var(--font-size-lgi);
+  }
+  .gradeValue {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .standingPlaceholder {
+    font-size: var(--font-size-lgi);
+  }
+  .standingLabel {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .academicProgress {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .weekdayNames,
+  .weekdayNames1,
+  .weekdayNames3 {
+    flex: 1;
+  }
+  .announcementContent,
+  .calendarDatePlaceholders,
+  .calendarDatePlaceholders1,
+  .calendarDatePlaceholders2,
+  .calendarDatePlaceholders3,
+  .calendarDatePlaceholders4,
+  .calendarWeek,
+  .calendarWeek1 {
+    flex-wrap: wrap;
+  }
+  .announcement {
+    height: auto;
+  }
+}

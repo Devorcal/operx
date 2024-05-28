@@ -1,0 +1,218 @@
+.logoIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.operex {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 112px;
+  white-space: nowrap;
+}
+.operexWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.frameChild,
+.logoParent,
+.operexWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoParent {
+  flex-direction: row;
+  padding: 0 112px 0 0;
+  gap: 8px;
+  font-size: 30px;
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-be-vietnam-pro);
+}
+.frameChild {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 50px;
+  flex: 1;
+  border-radius: 30px;
+  flex-direction: column;
+  padding: var(--padding-smi) var(--padding-mini);
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: #9a9a9a;
+  min-width: 250px;
+  max-width: 100%;
+}
+.am {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 72px;
+  white-space: nowrap;
+}
+.amWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.sundayMay5 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+}
+.sundayMay52023Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.accountIcon,
+.d {
+  position: relative;
+}
+.accountIcon {
+  height: 50px;
+  width: 51px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.d {
+  text-decoration: none;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  min-width: 18px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.accountIconParent {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xs) var(--padding-base) var(--padding-6xs)
+    var(--padding-mid);
+  font-size: var(--font-size-5xl);
+  color: var(--label-colors-lc-l-primary);
+}
+.accountIconParent,
+.frameGroup,
+.frameParent,
+.homePageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  gap: 30px;
+}
+.frameParent,
+.homePageInner {
+  max-width: 100%;
+}
+.frameParent {
+  margin: 0;
+  flex: 1;
+  gap: 31px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.homePageInner {
+  align-self: stretch;
+  padding: 0 28px 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.logoutIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 25px;
+}
+.logout {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.logoutParent,
+.logoutWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoutWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logoutParent {
+  flex-direction: row;
+  gap: 7.8px;
+}
+.homePage,
+.homePageChild {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.homePageChild {
+  width: 265.8px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.homePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 32px 14px 116px;
+  gap: 116px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: #0a0909;
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1150px) {
+  .sundayMay5 {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+  .homePage {
+    gap: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logoParent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .homePage {
+    gap: 29px;
+  }
+}
